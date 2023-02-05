@@ -1,0 +1,7 @@
+canvas{
+    width: 100vw;
+    height: 100vh;
+    /* background: url(../src/images/jeremy-thomas-E0AHdsENmDg-unsplash.jpg); */
+    background-color: rgb(11, 11, 38);
+    z-index: -123;
+}
