@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://deepanganth.github.io/portfolio3D",
+  "homepage": "https://deepanganth.github.io/3Dportfolio",
   "private": true,
   "dependencies": {
     "@react-three/cannon": "^6.5.2",
@@ -10,11 +10,16 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "aos": "^3.0.0-beta.6",
+    "camera-controls": "^2.1.0",
     "cannon": "github:schteppe/cannon.js",
     "drei": "^2.2.21",
+    "gltfjsx": "^6.1.4",
+    "nice-color-palettes": "^3.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "react-scroll-parallax": "^3.3.2",
     "react-three-fiber": "^6.0.13",
     "three": "^0.149.0",
     "three-stdlib": "^2.21.8",
@@ -47,6 +52,7 @@
     ]
   },
   "devDependencies": {
+    "file-loader": "^6.2.0",
     "gh-pages": "^5.0.0"
   }
 }

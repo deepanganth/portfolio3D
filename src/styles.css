@@ -1,7 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
 canvas{
+    /* margin-left: 10rem; */
     width: 100vw;
     height: 100vh;
-    /* background: url(../src/images/jeremy-thomas-E0AHdsENmDg-unsplash.jpg); */
-    background-color: rgb(11, 11, 38);
+    background: url(../src/images/bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: rgb(184, 184, 220); */
     z-index: -123;
+}
+
+.canvas3D{
+    
+}
+/* section-1 */
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 100;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    margin-top: 2rem;
+    margin-left: -1rem;
+    width: 40rem;
+    height: 5rem;
+}
+
+.logo{
+    width: 4rem;
+    height: 4rem;
+    background:url(../src/images/logo.jpg);
+    background-size: cover;
+    background-size: 4rem;
+    background-repeat: no-repeat;
+}
+
+.dribbble{
+    margin-left: 1rem;
+    width: 3rem;
+    height: 3rem;
+    background:url(../src/images/Dribbble.png);
+    background-size: cover;
+    background-size: 2rem;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.insta{
+    margin-left: 1rem;
+    width: 3rem;
+    height: 3rem;
+    background:url(../src/images/Instagram_black.png);
+    background-size: cover;
+    background-size: 2rem;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+
+.section-1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50rem;
+    height: 50rem;
+    background-color:rgba(197, 114, 208, 0);
+}
+.Name{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 2rem;
+    border-radius: 10px;
+    width: 40rem;
+    height: 20rem;
+    margin-top: 5rem;
+    margin-left: 5rem;
+    color: rgba(0, 0, 0);
+    font-size: 2.2rem;
+    font-weight: 800;
+}
+
+.Name p{
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+/* section-2 */
+
+.section-2{
+    overflow: hidden;
+    font-family: 'Silkscreen', cursive;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.about p{
+    font-size: 1.3rem;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+}
+
+.about{
+    line-height: .5rem;
+    margin-left: 5rem;
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: rgb(27, 0, 35);
+    margin-top: 5rem;
+}
+.top{
+    width: 100%;
+    height: 100vh;
+}
+
+.quotes{
+    margin-top: 10rem;
+    margin-left: 5rem;
+    font-size: 3rem;
+    line-height: 2rem;
+}
+
+.section-2-right{
+    margin-left: 2rem;
+}
+
+.square{
+    position: relative;
+    top: -45rem;
+    width: 10rem;
+    height: 10rem;
+    background: url(../src/images/Square.png);
+    background-size: cover;
+    background-size: 10rem;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.triangle{
+    position: relative;
+    top: -45rem;
+    left: 20rem;
+    width: 30rem;
+    height: 30rem;
+    background: url(../src/images/Triangle.png);
+    background-size: cover;
+    background-size: 15rem;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.circle{
+    width: 40rem;
+    height: 40rem;
+    background: url(../src/images/Circle.png);
+    background-size: cover;
+    background-size: 25rem;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.about img{
+    width: 4rem;
+    height: 2rem;
+}
+.about p{
+    display: flex;
+    align-items: center;
 }
